@@ -1,7 +1,7 @@
 --[[
   it uses my "library loader" script, that basicly saves any script to be used tomorrow (as result you never gonna need to wait for it download the library, until you delete the file in the workspace folder)
   
-  remembering that file saving is a synapse x feature, if not using synapse, it will just make a http request for the library (the normal delay of a http request on github is 0.4 - 0.6 seconds, so its 10000x better when using synapse + my library loader)
+  remembering that file saving is a synapse x feature, if not using synapse, it just gonna make a http request for the library (the normal delay of a http request on github is 0.4 - 0.6 seconds, so its 10000x better when using synapse + my library loader)
 ]]
 
 local FileName = 'rbx-highlighter.lua'
