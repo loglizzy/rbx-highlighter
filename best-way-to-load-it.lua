@@ -62,7 +62,7 @@ myScreenGui.Parent = Players.LocalPlayer.PlayerGui
 
 local myRenderer = ObjectHighlighter.createRenderer(myScreenGui)
 
-local myHighlight = ObjectHighlighter.createFromTarget(Players.LocalPlayer.Character -- player character for example)
+local myHighlight = ObjectHighlighter.createFromTarget(Players.LocalPlayer.Character) -- using player character for example
 
 myRenderer:addToStack(myHighlight)
 
